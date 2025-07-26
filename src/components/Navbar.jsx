@@ -21,7 +21,15 @@ export const Navbar = () => {
             <NavLink to="/">
               <p>Home</p>
             </NavLink>
-
+            <NavLink to="/about">
+              <p>About</p>
+            </NavLink>
+            <NavLink to="/products">
+              <p>Products</p>
+            </NavLink>
+            <NavLink to="/contact">
+              <p>Contact</p>
+            </NavLink>
             <NavLink to="/cart">
               <div className="relative">
                   <FaShoppingCart className="text-2xl"/>
